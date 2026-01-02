@@ -11,4 +11,4 @@ jobs:
     name: Deploy
     uses: cartabinaria/config/.github/workflows/statik.yaml@main
     with:
-      regex_include: "\\.(pdf|link|txt|go)$"
+      regex_include: "\\.(pdf|link|txt|go|c|ada)$"
